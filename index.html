@@ -75,6 +75,51 @@
                         <use href="./images/icons.svg#close"></use>
                     </svg>
                 </button>
+                <form class="modal-form">
+                    <strong class="modal-invocation">Оставьте свои данные, мы вам перезвоним</strong>
+                    <label class="modal-field">
+                        <span class="modal-label-content">Имя</span>
+                        <div class="modal-input-hv-fc">
+                            <input class="modal-field-input" type="text" name="user-name">
+                            <svg class="modal-input-icon" width="12" height="12">
+                                <use href="./images/icons.svg#icon-man"></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="modal-field">
+                        <span class="modal-label-content">Телефон</span>
+                        <div class="modal-input-hv-fc">
+                            <input class="modal-field-input" type="tel" name="user-phone">
+                            <svg class="modal-input-icon" width="13" height="13">
+                                <use href="./images/icons.svg#icon-tel"></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="modal-field">
+                        <span class="modal-label-content">Почта</span>
+                        <div class="modal-input-hv-fc">
+                            <input class="modal-field-input" type="email" name="user-email">
+                            <svg class="modal-input-icon" width="15" height="12">
+                                <use href="./images/icons.svg#icon-mail"></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="modal-field-textarea">
+                        <span class="modal-label-content">Комментарий</span>
+                        <textarea name="user-comment" placeholder="Введите текст"></textarea>
+                    </label>
+                    <label class="modal-field-checkbox">
+                        <input class="visually-hidden" type="checkbox" name="checkbox">
+                        <div class="modal-checkbox-icon">
+                            <svg class="modal-check-icon" width="13" height="10">
+                                <use href="./images/icons.svg#icon-check"></use>
+                            </svg>
+                        </div>
+                        <span class="modal-check-text">Соглашаюсь с рассылкой и принимаю </span>
+                        <a href="" class="modal-checkbox-link"> Условия договора</a>
+                    </label>
+                    <button class="modal-btn-send" type="submit">Отправить</button>
+                </form>
             </div>
         </div>
 
@@ -424,6 +469,22 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="footer-email">
+                <strong class="invocation">Подпишитесь на рассылку</strong>
+                <form name="form-subscription">
+                    <div class="footer-field">
+                        <label>
+                            <input class="footer-input" type="email" name="user-email" placeholder="E-mail">
+                        </label>
+                        <button class="footer-btn" type="submit">
+                            <span class="footer-button-text">Подписаться</span>
+                            <svg class="footer-icon-email icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </footer>
