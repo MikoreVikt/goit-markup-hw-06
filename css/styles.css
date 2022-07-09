@@ -364,6 +364,10 @@ body {
     margin-bottom: 10px;
 }
 
+.modal-field label {
+    position: relative;
+}
+
 .modal-field-input {
     width: 100%;
     height: 40px;
@@ -385,10 +389,6 @@ body {
 .modal-input-hv-fc:hover input,
 .modal-input-hv-fc:focus-within input {
     border-color: var(--accent-color);
-}
-
-.modal-field div {
-    position: relative;
 }
 
 .modal-label-content {
