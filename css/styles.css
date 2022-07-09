@@ -516,21 +516,11 @@ textarea:focus {
     fill: var(--accent-color);
 }
 
-.modal-checkbox-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 16px;
-    height: 15px;
+.modal-check-icon {
     margin-right: 7px;
-
+    fill: var(--white-color);
     background-color: var(--accent-color);
     border-radius: 2px;
-}
-
-.modal-check-icon {
-    fill: var(--white-color);
 }
 
 
