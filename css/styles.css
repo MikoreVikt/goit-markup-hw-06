@@ -521,6 +521,8 @@ textarea:focus {
     fill: var(--white-color);
     background-color: var(--accent-color);
     border-radius: 2px;
+
+    cursor: pointer;
 }
 
 
