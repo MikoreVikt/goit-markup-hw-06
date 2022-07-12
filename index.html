@@ -77,43 +77,41 @@
                 </button>
                 <form class="modal-form">
                     <strong class="modal-invocation">Оставьте свои данные, мы вам перезвоним</strong>
-                    <div class="modal-field">
+                    <label class="modal-field">
                         <span class="modal-label-content">Имя</span>
-                        <label class="modal-input-hv-fc">
+                        <div class="modal-input-hv-fc">
                             <input class="modal-field-input" type="text" name="user-name">
                             <svg class="modal-input-icon" width="12" height="12">
                                 <use href="./images/icons.svg#icon-man"></use>
                             </svg>
-                        </label>
-                    </div>
-                    <div class="modal-field">
+                        </div>
+                    </label>
+                    <label class="modal-field">
                         <span class="modal-label-content">Телефон</span>
-                        <label class="modal-input-hv-fc">
+                        <div class="modal-input-hv-fc">
                             <input class="modal-field-input" type="tel" name="user-phone">
                             <svg class="modal-input-icon" width="13" height="13">
                                 <use href="./images/icons.svg#icon-tel"></use>
                             </svg>
-                        </label>
-                    </div>
-                    <div class="modal-field">
+                        </div>
+                    </label>
+                    <label class="modal-field">
                         <span class="modal-label-content">Почта</span>
-                        <label class="modal-input-hv-fc">
+                        <div class="modal-input-hv-fc">
                             <input class="modal-field-input" type="email" name="user-email">
                             <svg class="modal-input-icon" width="15" height="12">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
-                        </label>
-                    </div>
+                        </div>
+                    </label>
                     <label class="modal-field-textarea">
                         <span class="modal-label-content">Комментарий</span>
                         <textarea name="user-comment" placeholder="Введите текст"></textarea>
                     </label>
                     <label class="modal-field-checkbox">
-                        <input class="visually-hidden" type="checkbox" name="checkbox">
-                        <svg class="modal-check-icon" width="16" height="15">
-                            <use href="./images/icons.svg#icon-check"></use>
-                        </svg>
-                        <span class="modal-check-text">Соглашаюсь с рассылкой и принимаю </span>
+                        <input class="visually-hidden modal-input-checkbox" type="checkbox">
+                        <span class="modal-checkbox-icon"></span>
+                        <span class="modal-checkbox-text">Соглашаюсь с рассылкой и принимаю </span>
                         <a href="" class="modal-checkbox-link"> Условия договора</a>
                     </label>
                     <button class="modal-btn-send" type="submit">
@@ -471,10 +469,10 @@
                 </ul>
             </div>
             <div class="footer-email">
-                <strong class="invocation">Подпишитесь на рассылку</strong>
                 <form name="form-subscription">
                     <div class="footer-field">
-                        <label>
+                        <label class="footer-label">
+                            <span class="invocation">Подпишитесь на рассылку</span>
                             <input class="footer-input" type="email" name="user-email" placeholder="E-mail">
                         </label>
                         <button class="footer-btn" type="submit">
