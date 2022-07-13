@@ -453,6 +453,8 @@ textarea:focus {
     align-items: center;
 
     margin-bottom: 30px;
+
+    user-select: none;
 }
 
 .modal-checkbox-text {
@@ -461,8 +463,6 @@ textarea:focus {
     line-height: 1.71;
 
     margin-right: 3px;
-
-    user-select: none;
 }
 
 .modal-checkbox-link {
